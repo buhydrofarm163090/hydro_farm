@@ -3,16 +3,23 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/ฺBanner.js";
-import { PageDashBoard } from "./components/PageDashBoard.js";
+/*import { PageDashBoard } from "./components/PageDashBoard.js";
 import { PageTutorial } from "./components/PageTutorial.js";
-import { Switch, Route } from 'react-router'; /* ยังใช้ไม่ได้ รอซ่อม */
+/*import { Switch, Route } from 'react-router'; /* ยังใช้ไม่ได้ รอซ่อม */
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <Switch>
+    </div>
+  );
+}
+
+export default App;
+
+/* 
+<Switch>
         <Route path="/" exact>
           <PageDashBoard />
         </Route>
@@ -22,8 +29,4 @@ function App() {
           <PageTutorial />
         </Route>
       </Switch>
-    </div>
-  );
-}
-
-export default App;
+*/
