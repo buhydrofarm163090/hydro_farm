@@ -1,3 +1,9 @@
+# Install
+npm install --save react-on-screen
+npm install animate.css --save
+npm i react-mailchimp-subscribe
+npm i react-bootstrap-icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
