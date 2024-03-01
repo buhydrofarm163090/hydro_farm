@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to Hydro Farm</span>
-                <h1>{`Hello Welcome`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Have room have no time to sleep", "T_T"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hello Welcome`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "no time to sleep", "T_T"]'><span className="wrap">{text}</span></span></h1>
                   <p> Smart Farm HydroPonic Control Box</p>
                   <button onClick={() => console.log('connect')}>Tutorial <ArrowRightCircle size={25} /></button>
               </div>}
