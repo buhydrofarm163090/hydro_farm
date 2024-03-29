@@ -3,6 +3,7 @@ npm install --save react-on-screen
 npm install animate.css --save
 npm i react-mailchimp-subscribe
 npm i react-bootstrap-icons
+npx webpack-cli info
 
 # Getting Started with Create React App
 

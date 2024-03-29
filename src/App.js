@@ -1,32 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/ฺBanner.js";
-/*import { PageDashBoard } from "./components/PageDashBoard.js";
-import { PageTutorial } from "./components/PageTutorial.js";
-/*import { Switch, Route } from 'react-router'; /* ยังใช้ไม่ได้ รอซ่อม */
+import { Contact } from "./components/Contact.js";
+import { Dashboard } from "./components/Dashboard.js";
+import { Tutorial } from "./components/Tutorial.js";
+import { Plot } from "./components/Plot.js";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+      <>
+    <Router>
       <NavBar />
-      <Banner />
-    </div>
-  );
+        <Switch>
+          <Route path='/' Component={Banner} exact> <Banner /> </Route>
+          <Route path='/tutorial' Component={Tutorial} exact> <Tutorial /> </Route>
+          <Route path='/dashboard' Component={Dashboard} exact> <Dashboard /> </Route>
+          <Route path='/plot' Component={Plot} exact> <Plot /> </Route>
+          <Route path='/contact' Component={Contact} exact> <Contact /> </Route>
+        </Switch>
+      </Router>
+    </>
+  )
 }
 
 export default App;
 
-/* 
-<Switch>
-        <Route path="/" exact>
-          <PageDashBoard />
-        </Route>
-      </Switch>
-      <Switch>
-        <Route path="/tutorial">
-          <PageTutorial />
-        </Route>
-      </Switch>
-*/
