@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-export const NavBar = () => {
+ const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+          <h1 className="logo"> HydroFarm </h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -46,11 +46,11 @@ export const NavBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('banner')}>Home</Nav.Link>
               <Nav.Link href="/dashboard" className={activeLink === 'dashboard' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('dashboard')}>DashBoard</Nav.Link>
-              <Nav.Link href="*contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
+              <Nav.Link href="/contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <HashLink to='/tutorial'>
-                <button className="vvd"><span>Tutorial</span></button>
+              <HashLink href="/tutorial">
+                <button className={activeLink === 'tutorial' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tutorial')}><span>Tutorial</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
@@ -59,3 +59,5 @@ export const NavBar = () => {
     </Router>
   )
 }
+
+export default NavBar;
