@@ -1,11 +1,11 @@
 import React from "react";
 
-const Plot = () => {
+const Control = () => {
   return (
     <section className='hero'>
-      <h1>Welcome to Pick your plot </h1>
+      <h1>Welcome to Control </h1>
     </section>
   )
 }
 
-export default Plot;
+export default Control;
