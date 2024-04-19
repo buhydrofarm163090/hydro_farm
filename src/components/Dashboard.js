@@ -1,11 +1,18 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import MainDash from "./MainDash";
 
-const Dashboard = () => {
+function Dashboard () {
   return (
-    <section className='hero'>
-      <h1>Welcome to DASHBOARD!!!!! </h1>
+    <section className = "Dashboard">
+      <section className="DashBoardNav">
+        <section className="DashboardGlass">
+          <Sidebar/>
+          <MainDash/>
+        </section>
+      </section>
     </section>
-  )
+  );
 }
 
 export default Dashboard;
