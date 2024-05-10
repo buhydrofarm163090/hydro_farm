@@ -1,13 +1,12 @@
 import React from "react";
+import { cardsData } from "../components/Data";
 
-function Cards() {
+const Cards = () => {
     return (
-        <section className="Cards">
-            Card
-            Card
-            Card
-        </section>
+      <section className='hero'>
+        <h1>Welcome to Contact / sent something to Cards </h1>
+      </section>
     )
-}
+  }
 
 export default Cards;

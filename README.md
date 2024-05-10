@@ -4,6 +4,7 @@ npm install animate.css --save
 npm i react-mailchimp-subscribe
 npm i react-bootstrap-icons
 npx webpack-cli info
+npm i @iconscout/react-unicons
 
 # Getting Started with Create React App
 
