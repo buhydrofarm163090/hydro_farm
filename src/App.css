@@ -532,9 +532,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-
-
-/***************Cards css********************/
+/************************Cards css*************************/
 .Cards {
   display: flex;
   gap: 10px;
@@ -560,7 +558,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/****************Card css*****************/
+/***********************Card css************************/
 .CompactCard {
   display: flex;
   flex: 1;

@@ -5,6 +5,13 @@ npm i react-mailchimp-subscribe
 npm i react-bootstrap-icons
 npx webpack-cli info
 npm i @iconscout/react-unicons
+npm i react-gauge-chart
+npm i react-circular-progressbar
+npm i framer-motion
+npm i react-apexcharts
+npm i react-gauge-chart
+npm i aws-amplify @aws-amplify/ui-react
+npm install -g @aws-amplify/cli
 
 # Getting Started with Create React App
 

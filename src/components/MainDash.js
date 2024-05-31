@@ -6,7 +6,7 @@ import DataFetcher from "./DataFetcher";
 function MainDash() {
   return (
     <section className="MainDash">
-      <h1>Dashboard</h1>
+      <Cards/>
       <DataFetcher/>
     </section>
   );

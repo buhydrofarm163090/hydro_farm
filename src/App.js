@@ -9,6 +9,8 @@ import  Dashboard from "./components/Dashboard.js";
 import  Tutorial from "./components/Tutorial.js";
 import  Plot from "./components/Plot.js";
 import  Control from "./components/Control.js";
+import Login from "./components/Login.js";
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 const App = () => {
   return (
@@ -28,5 +30,5 @@ const App = () => {
   )
 }
 
-export default App;
+export default withAuthenticator(App);
 

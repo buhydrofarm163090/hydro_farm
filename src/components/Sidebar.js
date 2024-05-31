@@ -28,7 +28,7 @@ const Sidebar = () => {
                             </span>
                         </section>
                     )
-                })}
+                })};
 
                 <section className="menuItem">
                     <UilSignOutAlt/>
