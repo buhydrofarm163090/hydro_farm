@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authenticatorvideo-staging-d3b93-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654163343:role/amplify-authenticatorvideo-staging-d3b93-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654163343:role/amplify-authenticatorvideo-staging-d3b93-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-authenticatorvideo-staging-d3b93-deployment",
+      "UnauthRoleName": "amplify-authenticatorvideo-staging-d3b93-unauthRole",
+      "StackName": "amplify-authenticatorvideo-staging-d3b93",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:654654163343:stack/amplify-authenticatorvideo-staging-d3b93/f6d33520-08be-11ef-a8a0-0a0075aff9cf",
+      "AmplifyAppId": "db5zhd706oy5a"
+    }
+  }
+}
