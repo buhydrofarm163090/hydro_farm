@@ -36,13 +36,9 @@ import {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-<<<<<<< HEAD
           <Navbar.Brand href="/">
           <h1 className="logo"> HydroFarm </h1>
           </Navbar.Brand>
-=======
-        <h3 className='logo'> HydroFarm </h3>
->>>>>>> origin/test01
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
