@@ -4,6 +4,7 @@ npm install animate.css --save
 npm i react-mailchimp-subscribe
 npm i react-bootstrap-icons
 npx webpack-cli info
+<<<<<<< HEAD
 npm i @iconscout/react-unicons
 npm i react-gauge-chart
 npm i react-circular-progressbar
@@ -12,6 +13,9 @@ npm i react-apexcharts
 npm i react-gauge-chart
 npm i aws-amplify @aws-amplify/ui-react
 npm install -g @aws-amplify/cli
+=======
+..
+>>>>>>> master
 
 # Getting Started with Create React App
 
