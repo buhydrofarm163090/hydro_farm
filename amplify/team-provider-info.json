@@ -1,4 +1,27 @@
 {
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hydrofarm-master-05e39-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654163343:role/amplify-hydrofarm-master-05e39-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654163343:role/amplify-hydrofarm-master-05e39-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-hydrofarm-master-05e39-deployment",
+      "UnauthRoleName": "amplify-hydrofarm-master-05e39-unauthRole",
+      "StackName": "amplify-hydrofarm-master-05e39",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:654654163343:stack/amplify-hydrofarm-master-05e39/a01d84e0-2189-11ef-882d-06d7f5c9b3a9",
+      "AmplifyAppId": "dhbmwb1dwtmky"
+    },
+    "categories": {
+      "auth": {
+        "hydrofarm": {
+          "nativeClientId": "7je9f9sm7963psf5br0e20t17h",
+          "userPoolId": "ap-southeast-1_aFmfu8qON",
+          "userPoolName": "Hydro_farmer",
+          "webClientId": "7je9f9sm7963psf5br0e20t17h"
+        }
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-authenticatorvideo-staging-d3b93-authRole",

@@ -12,7 +12,7 @@ import  Control from "./components/Control.js";
 import Login from "./components/Login.js";
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
-const App = () => {
+const App = ({ signOut, user }) => {
   return (
       <>
     <Router>
@@ -26,8 +26,12 @@ const App = () => {
           <Route path='/control' Component={Control} exact> <Control /> </Route>
         </Switch>
       </Router>
+      <div className="App">
+        <p>{user.username}</p>
+        <button onClick={() => signOut()}>Sign out</button>
+      </div>
     </>
   )
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(App, { hideSignUp: true });
